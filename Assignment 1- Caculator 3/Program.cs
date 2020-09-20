@@ -20,19 +20,19 @@ namespace Assignment_1__Caculator_3
                 { 
                     case "+":
                         Console.WriteLine($"{num1} + {num2}={ Addition(num1, num2)}");
-                    break;
+                        break;
                     case "-":
                         Console.WriteLine($"{num1} - {num2}={ Subtraction(num1, num2)}");
-                    break;
+                        break;
                     case "*":
                         Console.WriteLine($"{num1} - {num2}={ Multiplactation(num1, num2)}");
-                    break;
+                        break;
                     case "/":
                         Console.WriteLine($"{num1} - {num2}={ Division(num1, num2)}");
-                    break;
+                        break;
                     default:
                         Console.WriteLine("Not a supported math operator.");
-                    break;
+                        break;
                 }
 
                 Console.WriteLine("if you want to stop calculation type quit otherwise just hit enter.");
